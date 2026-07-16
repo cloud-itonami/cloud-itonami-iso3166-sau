@@ -1,0 +1,23 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "sau.royal-decree-m132-1443-companies-law"
+           :title "Companies Law"
+           :jurisdiction "SAU"
+           :kind :law
+           :law-number "Royal Decree No. M/132"
+           :url "https://gccbdi.org/sites/default/files/content-files/Resources/Governance%20&%20Director%20Information/KSA/Company%20Law%202022%20-%20(English).pdf"
+           :url-provenance :gccbdi-org-mirror
+           :enacted-date "2022-06-30"
+           :retrieved-at "2026-07-17"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "sau.royal-decree-m19-1443-personal-data-protection-law"
+           :title "Personal Data Protection Law"
+           :jurisdiction "SAU"
+           :kind :law
+           :law-number "Royal Decree No. M/19"
+           :url "https://www.dlapiperdataprotection.com/?c=SA"
+           :url-provenance :dlapiper-data-protection-laws-of-the-world
+           :enacted-date "2021-09-16"
+           :retrieved-at "2026-07-17"
+           :topic [:data-protection :privacy]}]

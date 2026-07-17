@@ -1,0 +1,15 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "sau.dish.kabsa", :name "Kabsa", :country "SAU", :kind :dish, :summary "Arab mixed rice dish, typically made with rice, vegetables, spices, herbs and either chicken, lamb, camel or beef, that originates from Saudi Arabia or Yemen and is regarded as a national dish across the Gulf Cooperation Council.", :url "https://en.wikipedia.org/wiki/Kabsa", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "sau.dish.jareesh", :name "Jareesh", :country "SAU", :kind :dish, :summary "Dish of crushed wheat cooked with yogurt and chicken or other meat, part of Saudi Arabian cuisine.", :url "https://en.wikipedia.org/wiki/Saudi_Arabian_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "sau.dish.mandi", :name "Mandi", :country "SAU", :kind :dish, :summary "Meat-and-rice dish with Yemeni roots that has transcended its origin and is now popular in many parts of the Arabian Peninsula, including Saudi Arabia.", :url "https://en.wikipedia.org/wiki/Mandi_(food)", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "sau.product.ajwa-date", :name "Ajwa", :country "SAU", :kind :product, :summary "Cultivar of the palm date widely grown in Medina, Saudi Arabia; oval-shaped and medium-sized with black skin.", :url "https://en.wikipedia.org/wiki/Ajwa_(date)", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Saudi_Arabian_cuisine", :id "sau.beverage.gahwah", :kind :beverage, :name-local "قهوة", :country "SAU", :retrieved-at "2026-07-17", :summary "Arabic coffee; serving gahwah in Saudi Arabia is a sign of hospitality and generosity, with light roasting common in the Najd and Hejaz regions.", :name "Gahwah", :url-provenance :wikipedia-en}
+#:culture{:id "sau.craft.al-sadu", :name "Al Sadu", :country "SAU", :kind :craft, :summary "Traditional weaving craft; in 2020 Al Sadu weaving in Saudi Arabia and Kuwait was inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity.", :url "https://en.wikipedia.org/wiki/Al_Sadu", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "sau.festival.al-jenadriyah", :name "Al-Jenadriyah", :country "SAU", :kind :festival, :summary "Cultural and heritage festival held in Jenadriyah near Riyadh, Saudi Arabia, each year, lasting for two weeks.", :url "https://en.wikipedia.org/wiki/Jenadriyah", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Hegra", :id "sau.heritage.hegra", :kind :heritage, :name-local "Mada'in Salih", :country "SAU", :retrieved-at "2026-07-17", :summary "Archaeological site in Saudi Arabia; in 2008 UNESCO proclaimed it a site of patrimony, becoming Saudi Arabia's first World Heritage Site.", :name "Hegra", :url-provenance :wikipedia-en}
+]
